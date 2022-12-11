@@ -36,3 +36,7 @@ button {
   border: solid;
   box-shadow: 5px 2px;
 }
+
+.hidden {
+  display: none;
+}
