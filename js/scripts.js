@@ -25,7 +25,7 @@ Pizza.prototype.pizzaToppingsPrice = function () {
   } else if (this.toppings === "pineapple") {
     this.toppingPrice = 3;
   } else if (this.toppings === "pepperoni") {
-    this.toppingsPrice = 3;
+    this.toppingPrice = 3;
   }
   return this.toppingPrice;
 }
