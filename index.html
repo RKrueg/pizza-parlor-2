@@ -14,27 +14,32 @@
     <div class="form-check">
       <form id="pizzaChoice">
         <h1 class="display-1">Pizza In The Garden</h1><br>
-        <h2>Pick Your Toppings</h2><br><br>
-        <small class="text-muted">Please Choose Only One Topping</small><br>
-        <label for="bacon"></label>
-        <input type="checkbox" id="bacon" name="toppings" class="form-check-input" value="bacon">Bacon<br>
-        <label for="ham"></label>
-        <input type="checkbox" id="ham" name="toppings" class="form-check-input" value="ham">Ham<br>
-        <label for="Pepperoni"></label>
-        <input type="checkbox" id="pineapple" name="toppings" class="form-check-input" value="pineapple">Pineapple<br>
-        <label for="Pepperoni"></label>
-        <input type="checkbox" id="pepperoni" name="toppings" class="form-check-input" value="pepperoni">Pepperoni<br><br>
-        <h2>Pick Your Size</h2><br><br>
-        <small class="text-muted">Please Choose Only One Size</small><br>
-        <label for="small"></label>
-        <input type="radio" id="small" name="size" class="form-check-input" value="small">Small<br>
-        <label for="medium"></label>
-        <input type="radio" id="medium" name="size" class="form-check-input" value="medium">Medium<br>
-        <label for="large"></label>
-        <input type="radio" id="large" name="size" class="form-check-input" value="large">Large<br><br>
-        <div class="btn-group">
-          <button type="submit">Place Order</button>
+        <div class="img-garden">
+          <img class="garden" src="img/garden.jpeg" alt="image of a mini garden basket">
         </div>
+        <div class="col-md-6">
+          <h2>Pick Your Toppings</h2><br><br>
+          <small class="text-muted">Please Choose Only One Topping</small><br>
+          <label for="bacon"></label>
+          <input type="checkbox" id="bacon" name="toppings" class="form-check-input" value="bacon">Bacon<br>
+          <label for="ham"></label>
+          <input type="checkbox" id="ham" name="toppings" class="form-check-input" value="ham">Ham<br>
+          <label for="Pepperoni"></label>
+          <input type="checkbox" id="pineapple" name="toppings" class="form-check-input" value="pineapple">Pineapple<br>
+          <label for="Pepperoni"></label>
+          <input type="checkbox" id="pepperoni" name="toppings" class="form-check-input"
+            value="pepperoni">Pepperoni<br><br>
+          <h2>Pick Your Size</h2><br><br>
+          <small class="text-muted">Please Choose Only One Size</small><br>
+          <label for="small"></label>
+          <input type="radio" id="small" name="size" class="form-check-input" value="small">Small<br>
+          <label for="medium"></label>
+          <input type="radio" id="medium" name="size" class="form-check-input" value="medium">Medium<br>
+          <label for="large"></label>
+          <input type="radio" id="large" name="size" class="form-check-input" value="large">Large<br><br>
+          <div class="btn-group">
+            <button type="submit">Place Order</button>
+          </div>
       </form>
     </div>
   </div><br>
@@ -45,11 +50,14 @@
           <h2>Order Details:</h2><br><br>
           <p>Toppings: Your topping of choice is <span class="toppings-picked"></span></p>
           <p>Size: Your size is <span class="size-picked"></span></p>
-          <p>Total Bill: You owe $<span class="total-bill"></span></p>
-
+          <p>Total Bill: You owe $<span class="total-bill"></span></p><br><br>
+          <div class="pizza-img">
+          <img class="pizza-img" src="img/pizza.jpeg" alt="image of a mini garden basket">
+        </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
 </body>
 
