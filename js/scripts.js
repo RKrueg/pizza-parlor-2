@@ -32,3 +32,7 @@ Pizza.prototype.pizzaTotal = function () {
   this.totalBill = this.toppingPrice + this.sizePrice;
   return this.totalBill;
 }
+
+Pizza.prototype.fullOrder = function () {
+  return "Your toppings are: " + this.toppings + " " + "and your size is: " + this.size + ". " + "Your total is: " + "$" + this.totalBill + ". " + "Thank you!"
+}

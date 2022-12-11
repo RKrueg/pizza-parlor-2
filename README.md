@@ -22,3 +22,9 @@ Describe: Pizza.prototype.pizzaTotal = function ()
 Test: "It should add the sizePrice and toppingsPrice together to give a total cost"
 Code: myPizza.pizzaTotal();
 Expected Output: 11
+
+Describe: Pizza.prototype.fullOrder () 
+
+Test: "It should string together the entire order"
+Code: myPizza.fullOrder()
+Expected Output: "Your toppings are: bacon and your size is: medium. Your total is: $11. Thank you!"
