@@ -1,0 +1,38 @@
+h1 {
+  height: 100%;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  text-transform: uppercase;
+  padding: 0px;
+  text-shadow: 4px 4px 5px white;
+  font-family: 'Times', cursive;
+  font-size: 5rem;
+  font-weight: 80;
+  position: relative;
+  background: linear-gradient(to right, rgb(36, 195, 8), rgba(46, 211, 76, 0.419), rgb(85, 226, 53));
+  border: solid;
+  box-shadow: 5px 2px;
+}
+
+h2 {
+  height: 100%;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  text-transform: uppercase;
+  padding: 0px;
+  text-shadow: 4px 4px 5px white;
+  font-family: 'Times', cursive;
+  font-size: 20px;
+  font-weight: 80;
+  position: relative;
+  background: linear-gradient(to right, rgb(36, 195, 8), rgba(46, 211, 76, 0.419), rgb(85, 226, 53));
+  border: solid;
+  box-shadow: 5px 2px;
+  float: left;
+}
+
+button {
+  background: linear-gradient(to right, rgb(36, 195, 8), rgba(46, 211, 76, 0.419), rgb(85, 226, 53));
+  border: solid;
+  box-shadow: 5px 2px;
+}
