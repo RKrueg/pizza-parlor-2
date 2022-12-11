@@ -17,8 +17,8 @@ Test: "It should return a price based on the toppings chosen"
 Code: myPizza.pizzaCostToppings();
 Expected Output: 1
 
-Describe: 
+Describe: Pizza.prototype.pizzaTotal = function ()
 
-Test:
-Code:
-Expected Output:
+Test: "It should add the sizePrice and toppingsPrice together to give a total cost"
+Code: myPizza.pizzaTotal();
+Expected Output: 11
