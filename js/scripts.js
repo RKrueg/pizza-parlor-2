@@ -41,12 +41,14 @@ Pizza.prototype.fullOrder = function () {
 
 function handleFormSubmission (event) {
   event.preventDefault();
+  const name = document.querySelector(".form-control-1").value;
   const userToppings = document.querySelector("input[name=toppings]:checked").value;
   const userSize = document.querySelector("input[name=size]:checked").value;
   let newPizza = new Pizza(userToppings,userSize);
   newPizza.pizzaSizePrice();
   newPizza.pizzaToppingsPrice();
   newPizza.pizzaTotal();
+  document.querySelector(".order-name-value").innerText = name;
   document.querySelector(".toppings-picked").innerText = newPizza.toppings;
   document.querySelector(".size-picked").innerText = newPizza.size;
   document.querySelector(".total-bill").innerText = newPizza.totalBill;
