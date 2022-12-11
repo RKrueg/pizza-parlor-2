@@ -1,16 +1,28 @@
 function Pizza(toppings = [], size) {
   this.toppings = toppings;
   this.size = size;
-  this.pizzaPrice = 0;
+  this.sizePrice = 0;
+  this.toppingPrice = 0;
 }
 
-Pizza.prototype.pizzaCostSize = function () {
+Pizza.prototype.pizzaSizePrice = function () {
   if (this.size === "small") {
-    this.pizzaPrice += 5;
+    this.sizePrice += 5;
   } else if (this.size === "medium") {
-    this.pizzaPrice += 7;
+    this.sizePrice += 7;
   } else if (this.size === "large") {
-    this.pizzaPrice += 10;
+    this.sizePrice += 10;
   }
-  return this.pizzaPrice;
+  return this.sizePrice;
+}
+
+Pizza.prototype.pizzaToppingsPrice = function () {
+  if (this.toppings === "bacon") {
+    this.toppingPrice += 1;
+  } else if (this.toppings === "ham") {
+    this.toppingPrice += 2;
+  } else if (this.toppings === "pineapple") {
+    this.toppingPrice +=3;
+  }
+  return this.toppingPrice
 }
