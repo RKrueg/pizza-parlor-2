@@ -28,7 +28,7 @@ _The application allows users to place a custom order for pizza by checking one 
 
 _[MIT](https://choosealicense.com/licenses/mit/)_
 
-Copyright (c) _October 21, 2022_ _Ryan Krueger_
+Copyright (c) _December 10th, 2022_ _Ryan Krueger_
 ```
 Describe: Pizza();
 
